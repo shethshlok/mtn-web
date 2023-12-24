@@ -4,6 +4,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './HeroPage.css'; // Import your CSS file for styling
 import { FaSearch } from "react-icons/fa";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const HeroPage = () => {
   return (
@@ -22,10 +23,18 @@ const HeroPage = () => {
         </div>
 
         < div className='lower-header'>
-            <div className='lower-header-item'>Shop</div>
-            <div className='lower-header-item'>About</div>
-            <div className='lower-header-item'>Contact</div>
-            <div className='lower-header-item'>FAQ</div>
+            <div className='lower-header-item'>
+            <div className='down-arrow'>Wine<RiArrowDropDownLine /> </div>
+            </div>
+            <div className='lower-header-item'>
+            <div className='down-arrow'>Spirit<RiArrowDropDownLine /> </div>
+            </div>
+            <div className='lower-header-item'>
+            <div className='down-arrow'>Beer<RiArrowDropDownLine /> </div>
+            </div>
+            <div className='lower-header-item'>
+            <div className='down-arrow'>Pick up<RiArrowDropDownLine /> </div>
+            </div>
         </div>
     </div>
   );
