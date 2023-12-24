@@ -1,0 +1,75 @@
+/* HeroPage.css */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #7e6b33; /* Lighter shade of #5f4c22 */
+  }
+
+.lower-header {
+    display: flex;
+    background-color: #ebc36c;
+    padding-top: 3%;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.lower-header-item {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7e6b33;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    height: 2%;
+    transition: 0.3s;
+    margin-left: 1%;
+}
+  
+
+  .page-section {
+    flex: 1; /* Each page section takes equal space */
+    margin-right: 20px; /* Adjust the margin between page sections */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+  }
+
+  
+  
+  .logo-container {
+    width: 80px; /* Set the width of your logo container */
+    height: 80px; /* Set the height of your logo container */
+    background-image: url('./mountain-logo.png'); /* Replace with the actual path to your logo image */
+    background-size: cover;
+  }
+
+  .cart-container{
+    width: 30px; /* Set the width of your logo container */
+    height: 30px; /* Set the height of your logo container */
+    background-image: url('./order.png'); /* Replace with the actual path to your logo image */
+    background-size: cover;
+  }
+  
+  .search-container {
+    flex: 1; /* Each page section takes equal space */
+    margin-right: 20px; /* Adjust the margin between page sections */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+  }
+
+.searchBox {
+  border-radius: 50px;
+  margin-left: 10px; /* Add some margin for separation */
+}
