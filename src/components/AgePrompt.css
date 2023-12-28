@@ -1,0 +1,28 @@
+/* AgeVerificationModal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.agePrompt {
+    background-image: url('./Over21.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+  
+  
+  /* Customize styles based on your design preferences */
+  

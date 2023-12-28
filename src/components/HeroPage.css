@@ -2,7 +2,7 @@
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #7e6b33; /* Lighter shade of #5f4c22 */
@@ -53,6 +53,7 @@
     height: 80px; /* Set the height of your logo container */
     background-image: url('./mountain-logo.png'); /* Replace with the actual path to your logo image */
     background-size: cover;
+    order: 2;
   }
 
   .cart-container{
@@ -60,16 +61,19 @@
     height: 30px; /* Set the height of your logo container */
     background-image: url('./order.png'); /* Replace with the actual path to your logo image */
     background-size: cover;
+    order: 3;
+    color: #ebc36c;
   }
   
   .search-container {
-    flex: 1; /* Each page section takes equal space */
+    order: 1; /* Each page section takes equal space */
     margin-right: 20px; /* Adjust the margin between page sections */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-left: 10px;
     position: relative;
+    /* color: #ebc36c; */
   }
 
 .searchBox {
