@@ -5,7 +5,6 @@ import './AgePrompt.css';
 // import { useHistory } from 'react-router-dom';
 
 const AgePrompt = ({ onConfirm, onReject }) => {
-
   
     const handleLeftClick = () => {
         // Handle left half click, e.g., redirect to page1
