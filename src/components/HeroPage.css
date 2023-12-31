@@ -4,16 +4,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     background-color: #7e6b33; /* Lighter shade of #5f4c22 */
+    background-image: url('./mountainsv5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
   }
 
 .lower-header {
     display: flex;
-    background-color: #ebc36c;
+    background-color: white;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 
 }
@@ -21,7 +27,7 @@
 .lower-header-item {
     padding: 10px;
     border-radius: 10px;
-    background-color: #7e6b33;
+    background-color: #ebc36c;
     color: white;
     font-size: 10px;
     font-weight: bold;
@@ -77,6 +83,29 @@
   }
 
 .searchBox {
-  border-radius: 50px;
-  margin-left: 10px; /* Add some margin for separation */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ebc36c;
+    color: #7e6b33;
+    font-weight: bold;
+    flex-grow: 0;
+}
+
+@keyframes searchAnimation {
+    0% {
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.search-container input {
+    animation: searchAnimation 0.5s ease-in-out;
 }

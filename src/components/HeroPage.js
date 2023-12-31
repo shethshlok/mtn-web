@@ -1,17 +1,18 @@
 // HeroPage.js
 
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import './HeroPage.css'; // Import your CSS file for styling
 import { FaSearch } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from 'react'; // Import useState hook
 import AgePrompt from './AgePrompt'; // Import the new component
+import AdBanner from './AdBanner';
 
 const HeroPage = () => {
   
   
-  const [showAgeModal, setShowAgeModal] = useState(true);
+  const [showAgeModal, setShowAgeModal] = useState(false);
+  const [showSearchContainer, setShowSearchContainer] = useState(false);
 
   const handleConfirmAge = () => {
     // Add logic to handle age confirmation
@@ -21,6 +22,11 @@ const HeroPage = () => {
   const handleRejectAge = () => {
     // Add logic to handle age rejection
     setShowAgeModal(false);
+  };
+
+  const handleSearchIconClick = () => {
+    // Toggle the visibility of the search container
+    setShowSearchContainer(!showSearchContainer);
   };
   
   
@@ -38,11 +44,19 @@ const HeroPage = () => {
 
             <div className="search-container">
             {/* <input className='searchBox' type="text" placeholder="Search" /> */}
-                <FaSearch />
+            {showSearchContainer && (
+              <div>
+                {/* Add your search box input or any other content here */}
+                <input className='searchBox' type="text" placeholder="Search" />
+              </div>
+            )}
+            <FaSearch onClick={handleSearchIconClick} />
             </div>
 
             <div className="logo-container"></div>
             <div className='cart-container'>
+              <div className='cart-icon'></div>
+              <div className='cart-text'>Cart</div>
             </div>
         </div>
 
@@ -60,6 +74,7 @@ const HeroPage = () => {
             <div className='down-arrow'>Offers<RiArrowDropDownLine /> </div>
             </div>
         </div>
+
     </div>
   );
 };
