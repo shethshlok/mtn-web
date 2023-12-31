@@ -59,7 +59,7 @@ const HeroPage = () => {
             </div>
         </div>
 
-        < div className='lower-header'>
+        <div className='lower-header'>
             <div className='lower-header-item'>
             <div className='down-arrow'>Wine<RiArrowDropDownLine /> </div>
             </div>
@@ -72,6 +72,14 @@ const HeroPage = () => {
             <div className='lower-header-item'>
             <div className='down-arrow'>Offers<RiArrowDropDownLine /> </div>
             </div>
+        </div>
+
+        <div className='ad-banner'>
+          <AdBanner />
+          </div>
+
+        <div className='banner'>
+          
         </div>
 
     </div>
