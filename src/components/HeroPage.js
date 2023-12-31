@@ -56,7 +56,6 @@ const HeroPage = () => {
             <div className="logo-container"></div>
             <div className='cart-container'>
               <div className='cart-icon'></div>
-              <div className='cart-text'>Cart</div>
             </div>
         </div>
 
