@@ -79,7 +79,13 @@ const HeroPage = () => {
           </div>
 
         <div className='banner'>
-          
+          < div className='banner-text'>
+            <div className='banner-text-header'>Click, Collect &amp; Sip</div>
+            <div className='banner-text-body'>Your Spirits At Your Fingertips!</div>
+            </div>
+          <div className='pickup-button'>
+            Place Order Now!
+          </div>
         </div>
 
     </div>
