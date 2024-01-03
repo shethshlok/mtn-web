@@ -96,6 +96,9 @@ const HeroPage = () => {
             </div>
         </div>
 
+        <div className='ad-banner'>
+          <AdBanner />
+          </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ad1 from './be_sure.jpg';
+import ad1 from './be_sure.png';
 import ad2 from './black_chivas_dewars_banner.jpg';
 import ad3 from './click_collect.jpg';
 import ad4 from './elixir_1920x580px (1).jpg';
