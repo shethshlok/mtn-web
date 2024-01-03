@@ -7,6 +7,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from 'react'; // Import useState hook
 import AgePrompt from './AgePrompt'; // Import the new component
 import AdBanner from './AdBanner';
+import ScrollPopup from './ScrollPopup'; // Adjust the path based on your project structure
 
 const HeroPage = () => {
   
@@ -41,6 +42,7 @@ const HeroPage = () => {
       )}
     
         <div className="header">
+        <ScrollPopup />
 
             <div className="search-container">
             {/* <input className='searchBox' type="text" placeholder="Search" /> */}
@@ -78,14 +80,20 @@ const HeroPage = () => {
           <AdBanner />
           </div>
 
-        <div className='banner'>
-          < div className='banner-text'>
-            <div className='banner-text-header'>Click, Collect &amp; Sip</div>
-            <div className='banner-text-body'>Your Spirits At Your Fingertips!</div>
+        <div className='instructions'>
+            <div className='left-text'>
+            <div className='banner-text-header'>Place Your Order</div>
+            <div className='banner-text-header'>Online</div>
             </div>
-          <div className='pickup-button'>
-            Place Order Now!
-          </div>
+            <div className='icons'>
+              <div className='mobile-cart-icon'></div>
+              <div className='arrow-icon'></div>
+              <div className='receiver-icon'></div>
+            </div>
+            <div className='left-text'>
+            <div className='banner-text-header'>Convinient In-Store</div>
+            <div className='banner-text-header'>Pickup</div>
+            </div>
         </div>
 
     </div>
