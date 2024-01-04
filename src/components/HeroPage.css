@@ -245,3 +245,28 @@
 .pickup-button:hover {
   cursor: pointer;
 }
+
+/* ProductCard.css */
+
+.product-card {
+  width: 30%;
+  min-height: 60%;
+  background-color: orange;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card-image {
+  width: 50%;
+  height: 50%;
+  align-self: center;
+  justify-self: center;
+  border-radius: 10px;
+}
+
+.product-card-info {
+  object-fit: cover;
+  border-radius: 10px;
+}
+

@@ -96,9 +96,17 @@ const HeroPage = () => {
             </div>
         </div>
 
-        <div className='ad-banner'>
-          <AdBanner />
-          </div>
+        <div className='product-card'>
+            <div className='product-card-image'>
+              <img src='https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR1Y9g6dI0UmWpmEU_rfr3SHpiQkrmq3QMKTyAwIXT8OeQwm6LnyDGQK4rs38uJl_qTyXwJzIqfVw' />
+            </div>
+            <div className='product-card-info'>
+              <div className='product-card-title'>Woodsdford Whisky</div>
+              <div className='product-card-body'>Really good whisky!</div>
+              <div className='product-card-price'>$9.99</div>
+              <div className='product-card-button'>Add To Cart</div>
+            </div>
+        </div>
     </div>
   );
 };
