@@ -77,7 +77,7 @@ const HeroPage = () => {
         </div>
 
         <div className='ad-banner'>
-          <AdBanner />
+          {/* <AdBanner /> */}
           </div>
 
         <div className='instructions'>
@@ -98,12 +98,15 @@ const HeroPage = () => {
 
         <div className='product-card'>
             <div className='product-card-image'>
-              <img src='https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR1Y9g6dI0UmWpmEU_rfr3SHpiQkrmq3QMKTyAwIXT8OeQwm6LnyDGQK4rs38uJl_qTyXwJzIqfVw' />
+              <img src='https://www.totalwine.com/site/binaries/t1656689719030/cardMedium/content/gallery/module-images/disc-images/wine/wine-disc.png' />
             </div>
             <div className='product-card-info'>
               <div className='product-card-title'>Woodsdford Whisky</div>
-              <div className='product-card-body'>Really good whisky!</div>
-              <div className='product-card-price'>$9.99</div>
+              <div className='product-card-body'>750ml</div>
+              <div className='product-card-price'>
+                <div className='current-price'>$9.99</div>
+                <div className='previous-price'>$12.99</div>
+              </div>
               <div className='product-card-button'>Add To Cart</div>
             </div>
         </div>
