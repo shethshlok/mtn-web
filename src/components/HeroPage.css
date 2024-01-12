@@ -311,3 +311,28 @@
   background-color: #d9aa43; /* Darker mustard yellow on hover */
   cursor: pointer;
 }
+
+.header-line {
+  width: 100%; /* Set the width to 100% to span the entire container */
+  height: 1px; /* Set the height of the line */
+  background-color: #000; /* Set the color of the line (you can use any color) */
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.header-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-color: #FAE4BC;
+  flex-grow: 0;
+}
+
+.header-text{
+  font-size: 20px;
+  font-weight: bold;
+  color: #7e6b33;
+  text-align: center;
+}

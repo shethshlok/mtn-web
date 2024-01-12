@@ -110,6 +110,12 @@ const HeroPage = () => {
               <div className='product-card-button'>Add To Cart</div>
             </div>
         </div>
+
+        <div className='header-banner'>
+          <span className='header-line'></span>
+          <div className='header-text'>BESTSELLERS</div>
+          <div className='header-line'></div>
+        </div>
     </div>
   );
 };
