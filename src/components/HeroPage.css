@@ -369,6 +369,7 @@
   opacity: 0;
   transition: right 0.5s ease-in-out; /* Add transition for fade effect */
   pointer-events: none; /* Disable pointer events by default */
+  width: 35vh;
 }
 
 .cart-drawer.open {
@@ -391,8 +392,8 @@
 }
 
 .heroPage.cart-open {
-  margin-right: 20%; /* Adjust the margin to slide the main content to the left */
-  margin-left: -20%;
+  margin-right: 38vh; /* Adjust the margin to slide the main content to the left */
+  margin-left: -38vh;
 }
 
 .heroPage {
