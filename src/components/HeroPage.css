@@ -69,6 +69,7 @@
     background-size: cover;
     order: 3;
     color: #ebc36c;
+    cursor: pointer;
   }
   
   .search-container {
@@ -266,11 +267,12 @@
 }
 
 .product-card-image img {
-  max-width: 250px; /* Ensure the image doesn't exceed the container width */
-  max-height: 250px; /* Ensure the image doesn't exceed the container height */
+  max-width: 200px; /* Ensure the image doesn't exceed the container width */
+  max-height: 200px; /* Ensure the image doesn't exceed the container height */
   object-fit: cover; /* Maintain aspect ratio and fit within the container */
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  aspect-ratio: 1/2;
 }
 
 .product-card-info {
@@ -352,4 +354,54 @@
   flex-grow: 0;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.cart-drawer {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Initially off-screen */
+  width: 28%;
+  height: 100%;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  padding: 20px;
+  z-index: 1;
+  opacity: 0;
+  transition: right 0.5s ease-in-out; /* Add transition for fade effect */
+  pointer-events: none; /* Disable pointer events by default */
+}
+
+.cart-drawer.open {
+  right: 0; /* Slide in when open */
+}
+
+.cart-drawer h2 {
+  margin-bottom: 10px;
+}
+
+.cart-drawer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-drawer li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.heroPage.cart-open {
+  margin-right: 300px; /* Adjust the margin to slide the main content to the left */
+  margin-left: -300px;
+}
+
+.heroPage {
+  transition: margin 0.5s ease-in-out; /* Add transition for smooth slide effect */
+}
+
+.cart-drawer.open {
+  right: 0; /* Slide in when open */
+  opacity: 1;
+  pointer-events: auto; /* Enable pointer events when the cart is open */
 }

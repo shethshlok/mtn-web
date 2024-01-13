@@ -14,6 +14,7 @@ const HeroPage = () => {
   
   const [showAgeModal, setShowAgeModal] = useState(false);
   const [showSearchContainer, setShowSearchContainer] = useState(false);
+  const [cartOpen, setCartOpen] = useState(false);
 
   const handleConfirmAge = () => {
     // Add logic to handle age confirmation
@@ -29,10 +30,31 @@ const HeroPage = () => {
     // Toggle the visibility of the search container
     setShowSearchContainer(!showSearchContainer);
   };
+
+  const toggleCartDrawer = () => {
+    setCartOpen(!cartOpen);
+  
+    // Add event listener to close cart on outside click when cart is open
+    if (!cartOpen) {
+      document.addEventListener('click', handleOutsideClick);
+    } else {
+      document.removeEventListener('click', handleOutsideClick);
+    }
+  };
+  
+  const handleOutsideClick = (e) => {
+    const cartContainer = document.querySelector('.cart-container');
+  
+    // Check if the clicked element is outside the cart div
+    if (cartContainer && !cartContainer.contains(e.target)) {
+      setCartOpen(false);
+      document.removeEventListener('click', handleOutsideClick);
+    }
+  };
   
   
   return (
-    <div className='heroPage'>
+    <div className={`heroPage ${cartOpen ? 'cart-open' : ''}`}>
       {/* Age Verification Modal */}
       {showAgeModal && (
         <AgePrompt
@@ -56,10 +78,20 @@ const HeroPage = () => {
             </div>
 
             <div className="logo-container"></div>
-            <div className='cart-container'>
+            <div className='cart-container' onClick={toggleCartDrawer}>
               <div className='cart-icon'></div>
             </div>
         </div>
+
+        {/* Cart Drawer */}
+      <div className={`cart-drawer ${cartOpen ? 'open' : ''}`}>
+        {/* Your cart content goes here */}
+        <h2>Shopping Cart</h2>
+        <ul>
+          {/* Cart items go here */}
+          {/* Example item: <li>Product 1</li> */}
+        </ul>
+      </div>
 
         <div className='lower-header'>
             <div className='lower-header-item'>
@@ -165,6 +197,8 @@ const HeroPage = () => {
         </div>
 
         </div>
+
+
 
     </div>
   );
