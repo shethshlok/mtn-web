@@ -96,6 +96,14 @@ const HeroPage = () => {
             </div>
         </div>
 
+        <div className='header-banner'>
+          <span className='header-line'></span>
+          <div className='header-text'>BESTSELLERS</div>
+          <div className='header-line'></div>
+        </div>
+
+        <div className='bottles'>
+
         <div className='product-card'>
             <div className='product-card-image'>
               <img src='https://www.totalwine.com/site/binaries/t1656689719030/cardMedium/content/gallery/module-images/disc-images/wine/wine-disc.png' />
@@ -111,11 +119,53 @@ const HeroPage = () => {
             </div>
         </div>
 
-        <div className='header-banner'>
-          <span className='header-line'></span>
-          <div className='header-text'>BESTSELLERS</div>
-          <div className='header-line'></div>
+        <div className='product-card'>
+            <div className='product-card-image'>
+              <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/h9c/h6a/16773747802142.png' />
+            </div>
+            <div className='product-card-info'>
+              <div className='product-card-title'>Woodsdford Whisky</div>
+              <div className='product-card-body'>750ml</div>
+              <div className='product-card-price'>
+                <div className='current-price'>$9.99</div>
+                <div className='previous-price'>$12.99</div>
+              </div>
+              <div className='product-card-button'>Add To Cart</div>
+            </div>
         </div>
+
+        <div className='product-card'>
+            <div className='product-card-image'>
+              <img src='https://www.totalwine.com/site/binaries/t1656689719030/cardMedium/content/gallery/module-images/disc-images/wine/wine-disc.png' />
+            </div>
+            <div className='product-card-info'>
+              <div className='product-card-title'>Woodsdford Whisky</div>
+              <div className='product-card-body'>750ml</div>
+              <div className='product-card-price'>
+                <div className='current-price'>$9.99</div>
+                <div className='previous-price'>$12.99</div>
+              </div>
+              <div className='product-card-button'>Add To Cart</div>
+            </div>
+        </div>
+
+        <div className='product-card'>
+            <div className='product-card-image'>
+              <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/h30/hc0/11986426003486.png' />
+            </div>
+            <div className='product-card-info'>
+              <div className='product-card-title'>Woodsdford Whisky</div>
+              <div className='product-card-body'>750ml</div>
+              <div className='product-card-price'>
+                <div className='current-price'>$9.99</div>
+                <div className='previous-price'>$12.99</div>
+              </div>
+              <div className='product-card-button'>Add To Cart</div>
+            </div>
+        </div>
+
+        </div>
+
     </div>
   );
 };
