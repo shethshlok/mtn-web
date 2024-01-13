@@ -360,7 +360,6 @@
   position: fixed;
   top: 0;
   right: -100%; /* Initially off-screen */
-  width: 28%;
   height: 100%;
   background-color: #f4f4f4;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -392,8 +391,8 @@
 }
 
 .heroPage.cart-open {
-  margin-right: 300px; /* Adjust the margin to slide the main content to the left */
-  margin-left: -300px;
+  margin-right: 20%; /* Adjust the margin to slide the main content to the left */
+  margin-left: -20%;
 }
 
 .heroPage {
