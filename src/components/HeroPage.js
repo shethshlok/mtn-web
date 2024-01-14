@@ -109,7 +109,7 @@ const HeroPage = () => {
         </div>
 
         <div className='ad-banner'>
-          {/* <AdBanner /> */}
+          <AdBanner />
           </div>
 
         <div className='instructions'>
