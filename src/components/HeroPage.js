@@ -1,7 +1,7 @@
 // HeroPage.js
 
 import React, { useEffect } from 'react';
-import './HeroPagev1.css'; // Import your CSS file for styling
+import './HeroPage.css'; // Import your CSS file for styling
 import { FaSearch } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from 'react'; // Import useState hook
@@ -11,11 +11,12 @@ import ScrollPopup from './ScrollPopup'; // Adjust the path based on your projec
 import MobileCart from './online-shopping.png';
 import Arrow from './timeline.png';
 import Receiver from './receiver.png';
+import LogoCarousel from './LogoCarousel'; // Adjust the path based on your project structure
 
 const HeroPage = () => {
   
   
-  const [showAgeModal, setShowAgeModal] = useState(false);
+  const [showAgeModal, setShowAgeModal] = useState(true);
   const [showSearchContainer, setShowSearchContainer] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
 
@@ -241,6 +242,14 @@ const HeroPage = () => {
 
         </div>
 
+        <div className='header-banner'>
+          <span className='header-line'></span>
+          <div className='header-text'>BRANDS</div>
+          <div className='header-line'></div>
+        </div>
+
+
+        <LogoCarousel />
 
 
     </div>

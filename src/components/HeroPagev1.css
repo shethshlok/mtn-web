@@ -482,3 +482,25 @@
   flex-direction: column;
   justify-items: space-between;
 }
+
+/* LogoCarousel.css */
+
+.logo-carousel {
+  /* position: relative; */
+  width: 100%; /* Adjust the width as needed */
+  height: 100px; /* Set the height of your carousel */
+  /* overflow: hidden; */
+}
+
+.viewport {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.logo {
+  width: 20%; /* Display 4 logos at once */
+  height: 60%; /* Adjust the height as needed */
+  object-fit: contain; /* Ensure logos fit within the container */
+  margin: 35px;
+}
