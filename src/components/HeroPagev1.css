@@ -16,7 +16,7 @@
 
 .lower-header {
     display: flex;
-    background-color: white;
+    background-color: #F5F4EF;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     justify-content: space-evenly;
@@ -27,7 +27,7 @@
 .lower-header-item {
     padding: 10px;
     border-radius: 10px;
-    /* background-color: #ebc36c; */
+    /* background-color: #333333; */
     color: black;
     font-size: 25px;
     font-weight: bold;
@@ -44,7 +44,7 @@
 .lower-header-item:hover {
     background-color: #5180B7; /* Darker mustard yellow on hover */
     cursor: pointer;
-    color: white;
+    color: #F5F4EF;
 }
 
   .page-section {
@@ -73,7 +73,7 @@
     background-image: url('./order.png'); /* Replace with the actual path to your logo image */
     background-size: cover;
     order: 3;
-    color: #ebc36c;
+    color: #333333;
     cursor: pointer;
   }
   
@@ -85,7 +85,7 @@
     align-items: center;
     margin-left: 10px;
     position: relative;
-    /* color: #ebc36c; */
+    /* color: #333333; */
   }
 
 .searchBox {
@@ -95,7 +95,7 @@
     border: none;
     padding: 10px;
     font-size: 16px;
-    background-color: #ebc36c;
+    background-color: #333333;
     color: #7e6b33;
     font-weight: bold;
     flex-grow: 0;
@@ -139,6 +139,7 @@
     background-image: url('./online-shopping.png'); /* Replace with the actual path to your logo image */
     background-size: cover;
     margin-right: 19px;
+    filter: hue-rotate(40deg); /* Adjust the degree as needed */
 }
 
 .arrow-icon {
@@ -166,12 +167,19 @@
 
 .instructions {
     height: 10%;
-    background-color: #a78a32;
+    background-color: #333333;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.instructions {
+  font-size: 20px;
+  font-weight: bold;
+  color: #F5F4EF;
+  text-align: center;
 }
 
 .left-text {
@@ -203,7 +211,7 @@
  
 .banner {
   height: 10%;
-  background-color: #FAE4BC;
+  background-color: #F5F4EF;
   display: flex;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
@@ -218,8 +226,8 @@
 .pickup-button {
   padding: 20px;
   border-radius: 10px;
-  background-color: #ebc36c;
-  color: white;
+  background-color: #333333;
+  color: #F5F4EF;
   font-size: 10px;
   font-weight: bold;
   text-decoration: none;
@@ -244,7 +252,7 @@
 .banner-text-header {
   font-size: 20px;
   font-weight: bold;
-  color: black;
+  color: #333333;
   text-align: center;
 }
 
@@ -257,7 +265,7 @@
 .product-card {
   width: 20%;
   min-height: 60%;
-  background-color: #f8f4e2;
+  background-color: #F5F4EF;
   border: 1px solid #ccc;
   /* border-radius: 10px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -307,8 +315,8 @@
 .product-card-button {
   padding: 20px;
   border-radius: 10px;
-  background-color: #ebc36c;
-  color: white;
+  background-color: #333333;
+  color: #F5F4EF;
   font-size: 12px;
   font-weight: bold;
   text-decoration: none;
@@ -345,7 +353,7 @@
 .header-text{
   font-size: 20px;
   font-weight: bold;
-  color: #7e6b33;
+  color: #333333;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;

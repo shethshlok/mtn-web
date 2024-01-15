@@ -88,9 +88,41 @@ const HeroPage = () => {
         {/* Your cart content goes here */}
         <h2>Shopping Cart</h2>
         <ul>
-          {/* Cart items go here */}
-          {/* Example item: <li>Product 1</li> */}
-        </ul>
+          <li>
+            <div className='cart-item'>
+              <div className='cart-item-image'>
+                <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/h9c/h6a/16773747802142.png' />
+              </div>
+              <div className='cart-item-info'>
+                <div className='cart-item-title'>Woodsdford Whisky</div>
+                <div className='cart-item-body'>750ml</div>
+                <div className='cart-item-price'>$9.99</div>
+                <div className='cart-item-quantity'>
+          <button className='quantity-btn'>-</button>
+          <span className='quantity-text'>1</span>
+          <button className='quantity-btn'>+</button>
+        </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className='cart-item'>
+              <div className='cart-item-image'>
+                <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/h30/hc0/11986426003486.png' />
+              </div>
+              <div className='cart-item-info'>
+                <div className='cart-item-title'>Woodsdford Whisky</div>
+                <div className='cart-item-body'>750ml</div>
+                <div className='cart-item-price'>$9.99</div>
+                <div className='cart-item-quantity'>
+          <button className='quantity-btn'>-</button>
+          <span className='quantity-text'>1</span>
+          <button className='quantity-btn'>+</button>
+        </div>
+              </div>
+            </div>
+          </li>   
+          </ul>
       </div>
 
         <div className='lower-header'>
@@ -114,8 +146,8 @@ const HeroPage = () => {
 
         <div className='instructions'>
             <div className='left-text'>
-            <div className='banner-text-header'>Place Your Order</div>
-            <div className='banner-text-header'>Online</div>
+            <div className='instructions-text'>Place Your Order</div>
+            <div className='instructions-text'>Online</div>
             </div>
             <div className='icons'>
               <div className='mobile-cart-icon'></div>
@@ -123,8 +155,8 @@ const HeroPage = () => {
               <div className='receiver-icon'></div>
             </div>
             <div className='left-text'>
-            <div className='banner-text-header'>Convinient In-Store</div>
-            <div className='banner-text-header'>Pickup</div>
+            <div className='instructions-text'>Convinient In-Store</div>
+            <div className='instructions-text'>Pickup</div>
             </div>
         </div>
 
