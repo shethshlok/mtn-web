@@ -98,7 +98,7 @@ const HeroPage = () => {
                 <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/h9c/h6a/16773747802142.png' />
               </div>
               <div className='cart-item-info'>
-                <div className='cart-item-title'>Woodsdford Whisky</div>
+                <div className='cart-item-title'>Borrasca Brut Cava</div>
                 <div className='cart-item-body'>750ml</div>
                 <div className='cart-item-price'>$9.99</div>
                 <div className='cart-item-quantity'>
@@ -115,7 +115,7 @@ const HeroPage = () => {
                 <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/h30/hc0/11986426003486.png' />
               </div>
               <div className='cart-item-info'>
-                <div className='cart-item-title'>Woodsdford Whisky</div>
+                <div className='cart-item-title'>ABK6 VSOP Cognac</div>
                 <div className='cart-item-body'>750ml</div>
                 <div className='cart-item-price'>$9.99</div>
                 <div className='cart-item-quantity'>
@@ -185,11 +185,11 @@ const HeroPage = () => {
               <img src='https://www.totalwine.com/site/binaries/t1656689719030/cardMedium/content/gallery/module-images/disc-images/wine/wine-disc.png' />
             </div>
             <div className='product-card-info'>
-              <div className='product-card-title'>Woodsdford Whisky</div>
+              <div className='product-card-title'>Mascota Vineyards, 2018</div>
               <div className='product-card-body'>750ml</div>
               <div className='product-card-price'>
-                <div className='current-price'>$9.99</div>
-                <div className='previous-price'>$12.99</div>
+                <div className='current-price'>$19.99</div>
+                <div className='previous-price'>$25.99</div>
               </div>
               <div className='product-card-button'>Add To Cart</div>
             </div>
@@ -200,11 +200,11 @@ const HeroPage = () => {
               <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/h9c/h6a/16773747802142.png' />
             </div>
             <div className='product-card-info'>
-              <div className='product-card-title'>Woodsdford Whisky</div>
+              <div className='product-card-title'>Borrasca Brut Cava</div>
               <div className='product-card-body'>750ml</div>
               <div className='product-card-price'>
                 <div className='current-price'>$9.99</div>
-                <div className='previous-price'>$12.99</div>
+                <div className='previous-price'>$11.99</div>
               </div>
               <div className='product-card-button'>Add To Cart</div>
             </div>
@@ -212,14 +212,14 @@ const HeroPage = () => {
 
         <div className='product-card'>
             <div className='product-card-image'>
-              <img src='https://www.totalwine.com/site/binaries/t1656689719030/cardMedium/content/gallery/module-images/disc-images/wine/wine-disc.png' />
+              <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/hba/hcf/10508799049758.png' />
             </div>
             <div className='product-card-info'>
-              <div className='product-card-title'>Woodsdford Whisky</div>
+              <div className='product-card-title'>Clase Azul Ultra Tequila</div>
               <div className='product-card-body'>750ml</div>
               <div className='product-card-price'>
-                <div className='current-price'>$9.99</div>
-                <div className='previous-price'>$12.99</div>
+                <div className='current-price'>$1999.99</div>
+                <div className='previous-price'>$2100.00</div>
               </div>
               <div className='product-card-button'>Add To Cart</div>
             </div>
@@ -230,11 +230,11 @@ const HeroPage = () => {
               <img src='https://www.totalwine.com/dynamic/250x/media/sys_master/twmmedia/h30/hc0/11986426003486.png' />
             </div>
             <div className='product-card-info'>
-              <div className='product-card-title'>Woodsdford Whisky</div>
+              <div className='product-card-title'>ABK6 VSOP Cognac</div>
               <div className='product-card-body'>750ml</div>
               <div className='product-card-price'>
-                <div className='current-price'>$9.99</div>
-                <div className='previous-price'>$12.99</div>
+                <div className='current-price'>$35.99</div>
+                <div className='previous-price'>$37.99</div>
               </div>
               <div className='product-card-button'>Add To Cart</div>
             </div>
