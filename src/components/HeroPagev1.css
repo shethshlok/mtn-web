@@ -267,6 +267,7 @@
   border: 1px solid #ccc;
   /* border-radius: 10px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2%;
 }
 
 .product-card-image {
@@ -359,6 +360,7 @@
 
 .bottles {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 2.5%;
@@ -502,4 +504,31 @@
   height: 200px; /* Adjust the height as needed */
   object-fit: contain; /* Maintain aspect ratio and fit within the container */
   margin: 20px;
+}
+
+.out-of-stock {
+  position: relative;
+}
+
+.out-of-stock-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(169, 169, 169, 0.6); /* Adjust the background color and opacity */
+}
+
+.out-of-stock-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg); /* Adjust the rotation angle as needed */
+  color: #333333; /* Set the text color */
+  font-size: 30px; /* Set the font size of "Out of Stock" text */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+
+.restock-date {
+  color: #333333;
 }
