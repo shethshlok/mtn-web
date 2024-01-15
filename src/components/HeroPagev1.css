@@ -5,8 +5,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-color: #7e6b33; /* Lighter shade of #5f4c22 */
-    background-image: url('./mountainsv5.png');
+    background-color: #F5F4EF; /* Lighter shade of #5f4c22 */
+    background-image: url('./mountainsv8.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 
 .lower-header {
     display: flex;
-    background-color: #F5F4EF;
+    background-color: #333333;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     justify-content: space-evenly;
@@ -27,8 +27,8 @@
 .lower-header-item {
     padding: 10px;
     border-radius: 10px;
-    /* background-color: #333333; */
-    color: black;
+    background-color: #333333;
+    color: #F5F4EF;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
@@ -42,9 +42,9 @@
 }
 
 .lower-header-item:hover {
-    background-color: #5180B7; /* Darker mustard yellow on hover */
+    background-color: #F5F4EF;
     cursor: pointer;
-    color: #F5F4EF;
+    color: #333333;
 }
 
   .page-section {
@@ -133,28 +133,26 @@
     transform: translateX(-100%);
   }
  
-.mobile-cart-icon {
-    width: 60px; /* Set the width of your logo container */
+  .mobile-cart-icon {
+    max-width: 60px; /* Set the width of your logo container */
     height: 60px; /* Set the height of your logo container */
-    background-image: url('./online-shopping.png'); /* Replace with the actual path to your logo image */
-    background-size: cover;
     margin-right: 19px;
-    filter: hue-rotate(40deg); /* Adjust the degree as needed */
+    filter: invert(100%);
 }
 
 .arrow-icon {
     width: 30px; /* Set the width of your logo container */
     height: 30px; /* Set the height of your logo container */
-    background-image: url('./timeline.png'); /* Replace with the actual path to your logo image */
     background-size: cover;
     margin-right: 19px;
+    filter: invert(100%);
 }
 
 .receiver-icon {
     width: 67.5px; /* Set the width of your logo container */
     height: 67.5px; /* Set the height of your logo container */
-    background-image: url('./receiver.png'); /* Replace with the actual path to your logo image */
     background-size: cover;
+    filter: invert(100%);
 }
 
 .icons {
@@ -292,7 +290,7 @@
   object-fit: cover;
   padding: 5%;
   padding-top: 1%;
-  color: #7e6b33; /* Dark brown for the title */
+  color: #333333; /* Dark brown for the title */
 }
 
 .product-card-body {
@@ -307,7 +305,7 @@
 
 .product-card-price {
   font-weight: bold;
-  color: #7e6b33;
+  color: #333333;
   display: flex;
   padding-bottom: 2%;
 }
@@ -329,8 +327,8 @@
 }
 
 .product-card-button:hover {
-  background-color: #d9aa43; /* Darker mustard yellow on hover */
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .header-line {
@@ -417,4 +415,43 @@
   right: 0; /* Slide in when open */
   opacity: 1;
   pointer-events: auto; /* Enable pointer events when the cart is open */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+}
+.cart-item-image {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.cart-item-image img {
+  max-width: 100%; /* Set the maximum width to 100% of the container */
+  max-height: 100%; /* Set the maximum height to 100% of the container */
+  object-fit: contain; /* Maintain aspect ratio and fit within the container */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  aspect-ratio: 1/2;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.quantity-text {
+  font-size: 16px;
+  margin: 0 5px;
 }

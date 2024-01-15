@@ -8,6 +8,9 @@ import { useState } from 'react'; // Import useState hook
 import AgePrompt from './AgePrompt'; // Import the new component
 import AdBanner from './AdBanner';
 import ScrollPopup from './ScrollPopup'; // Adjust the path based on your project structure
+import MobileCart from './online-shopping.png';
+import Arrow from './timeline.png';
+import Receiver from './receiver.png';
 
 const HeroPage = () => {
   
@@ -150,9 +153,9 @@ const HeroPage = () => {
             <div className='instructions-text'>Online</div>
             </div>
             <div className='icons'>
-              <div className='mobile-cart-icon'></div>
-              <div className='arrow-icon'></div>
-              <div className='receiver-icon'></div>
+                <img src={MobileCart} className='mobile-cart-icon' />
+                <img src={Arrow} className='arrow-icon' />
+                <img src={Receiver} className='receiver-icon' />
             </div>
             <div className='left-text'>
             <div className='instructions-text'>Convinient In-Store</div>

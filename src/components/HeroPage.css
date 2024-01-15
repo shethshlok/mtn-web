@@ -129,17 +129,14 @@
   }
  
 .mobile-cart-icon {
-    width: 60px; /* Set the width of your logo container */
+    max-width: 60px; /* Set the width of your logo container */
     height: 60px; /* Set the height of your logo container */
-    background-image: url('./online-shopping.png'); /* Replace with the actual path to your logo image */
-    background-size: cover;
     margin-right: 19px;
 }
 
 .arrow-icon {
     width: 30px; /* Set the width of your logo container */
     height: 30px; /* Set the height of your logo container */
-    background-image: url('./timeline.png'); /* Replace with the actual path to your logo image */
     background-size: cover;
     margin-right: 19px;
 }
@@ -147,7 +144,6 @@
 .receiver-icon {
     width: 67.5px; /* Set the width of your logo container */
     height: 67.5px; /* Set the height of your logo container */
-    background-image: url('./receiver.png'); /* Replace with the actual path to your logo image */
     background-size: cover;
 }
 
