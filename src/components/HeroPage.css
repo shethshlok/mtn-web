@@ -435,7 +435,7 @@
 }
 
 .quantity-btn {
-  background-color: #007bff;
+  background-color: #ebc36c;
   color: #fff;
   border: none;
   padding: 5px 10px;
@@ -447,4 +447,30 @@
 .quantity-text {
   font-size: 16px;
   margin: 0 5px;
+}
+
+.cart-footer {
+  flex-direction: column; /* Display the children elements in a column */
+  align-items: flex-end; /* Align items to the end of the container */
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart-total-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
 }

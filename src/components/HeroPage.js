@@ -1,7 +1,7 @@
 // HeroPage.js
 
 import React, { useEffect } from 'react';
-import './HeroPage.css'; // Import your CSS file for styling
+import './HeroPagev1.css'; // Import your CSS file for styling
 import { FaSearch } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from 'react'; // Import useState hook
@@ -126,6 +126,14 @@ const HeroPage = () => {
             </div>
           </li>   
           </ul>
+
+          <div className='cart-footer'>
+            <div className='cart-total'>
+              <div className='cart-total-text'>Total</div>
+              <div className='cart-total-price'>$19.98</div>
+            </div>
+            <div className='product-card-button'>Order Now</div>
+          </div>
       </div>
 
         <div className='lower-header'>
