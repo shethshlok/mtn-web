@@ -271,7 +271,6 @@
 }
 
 .product-card-image {
-  position: relative;
   padding: 5%;
   display: flex;
   justify-content: center;
