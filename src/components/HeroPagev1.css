@@ -319,7 +319,7 @@
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  max-width: 80%;
+  max-width: 100%;
   height: 2%;
   transition: 0.3s;
   align-self: center;
@@ -460,6 +460,7 @@
 .cart-footer {
   flex-direction: column; /* Display the children elements in a column */
   align-items: flex-end; /* Align items to the end of the container */
+  margin-top: 500px;
 }
 
 .cart-total {
@@ -475,6 +476,7 @@
 .cart-total-price {
   font-size: 20px;
   font-weight: bold;
+  padding-right: 10px;
 }
 
 .cart {
