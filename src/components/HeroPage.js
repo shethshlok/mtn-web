@@ -292,6 +292,7 @@ const HeroPage = () => {
 
         <div className='product-card'>
           <div className='product-card-image'>
+          <div className='premium-badge'>Premium Selection</div>
             <img src='https://www.totalwine.com/dynamic/270x/media/sys_master/twmmedia/ha0/h77/16530667667486.png' />
           </div>
           <div className='product-card-info'>

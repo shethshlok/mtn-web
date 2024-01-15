@@ -271,6 +271,7 @@
 }
 
 .product-card-image {
+  position: relative;
   padding: 5%;
   display: flex;
   justify-content: center;
@@ -531,4 +532,16 @@
 
 .restock-date {
   color: #333333;
+}
+
+.premium-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 29%;
+  background-color: #ebc36c; /* Set the background color of the premium badge */
+  color: #000; /* Set the text color of the premium badge */
+  padding: 5px; /* Adjust the padding as needed */
+  font-size: 10px; /* Adjust the font size as needed */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
 }
