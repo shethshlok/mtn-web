@@ -1,7 +1,7 @@
 // HeroPage.js
 
 import React, { useEffect } from 'react';
-import './HeroPage.css'; // Import your CSS file for styling
+import './HeroPagev1.css'; // Import your CSS file for styling
 import { FaSearch } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from 'react'; // Import useState hook
